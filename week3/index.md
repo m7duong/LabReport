@@ -126,3 +126,56 @@ static void reverseInPlace(int[] arr)
 ```
 
 * Explanation: Here, we can see this code has some issues when we do the test case. It fails the test and shows that the expect is unmatch to the actual. For example, I try the test case with the array {4, 5, 6}, after doing the reverse, it should display {6, 5, 4}. But, if we follow the given code, it has a wrong order, which is display exactly the same array we input. This is call "the failure-inducing input" that it has a wrong data. Also, this code has a symptom that it fails the test output. Indeed, the output is unmatch together. Lastly, there exists a bug that it makes the code run wrong, that is the condition of the loop. By the concept, we should run this code until half of the array, because if we run to the last element of the array, it returns back to the array we input. 
+
+* This code's bug and symptom has a connection to each other because if the code has bug(s), it will have a symptom shown that we need to fix. If we don't have a bug, the program won't have any symptom. Here, we can observe that the original code make a logical error at the beginning, which causes the symptom to be shown in the terminal when we run the test case. 
+
+## Second code:
+
+- Before I make a change:
+
+```java
+static List<String> filter(List<String> list, StringChecker sc) 
+{
+    List<String> result = new ArrayList<>();
+    for(String s: list) 
+    {
+        if(sc.checkString(s)) 
+        {
+            result.add(0, s);
+        }
+    }
+    
+    return result;
+}
+```
+
+- After I make a change:
+```java
+static List<String> filter(List<String> list, StringChecker sc) 
+{
+    List<String> result = new ArrayList<>();
+    for(String s: list)
+    {
+        if(sc.checkString(s))
+        {
+            result.add(s);
+        }
+    }
+
+    return result;
+}
+
+class Checker implements StringChecker
+{
+    public boolean checkString(String s)
+    {
+        return s.contains("H"); // Can be some string/other character based on the input.
+    }
+}
+```
+
+* Explanation: 
+    - First of all, we can visualize the filter function from the original and after modifying is really similar. However, there is one little change that in the add method, the original makes a bug that they assign the position to add for the string. This cause the logical error because when we add in, it will go to the first element. And if we keep adding it into a list, the first element turns into the last element when we call it out. Therefore, the expect and actual are different, and this cause a symptom that the test case fails, and we need to go back and change a code into the modified program above. 
+
+* This code's bug and symptom has a connection to each other because if the code has bug(s), it will have a symptom shown that we need to fix. If we don't have a bug, the program won't have any symptom. Here, we can observe that the original code make a logical error at the beginning, which causes the symptom to be shown in the terminal when we run the test case. 
+
