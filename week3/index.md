@@ -150,6 +150,7 @@ static List<String> filter(List<String> list, StringChecker sc)
 ```
 
 - After I make a change:
+
 ```java
 static List<String> filter(List<String> list, StringChecker sc) 
 {
