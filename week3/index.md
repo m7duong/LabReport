@@ -125,4 +125,4 @@ static void reverseInPlace(int[] arr)
 }
 ```
 
-* Explanation: Here, we can see 
+* Explanation: Here, we can see this code has some issues when we do the test case. It fails the test and shows that the expect is unmatch to the actual. For example, I try the test case with the array {4, 5, 6}, after doing the reverse, it should display {6, 5, 4}. But, if we follow the given code, it has a wrong order, which is display exactly the same array we input. This is call "the failure-inducing input" that it has a wrong data. Also, this code has a symptom that it fails the test output. Indeed, the output is unmatch together. Lastly, there exists a bug that it makes the code run wrong, that is the condition of the loop. By the concept, we should run this code until half of the array, because if we run to the last element of the array, it returns back to the array we input. 
