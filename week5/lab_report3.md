@@ -10,16 +10,21 @@ For this lab, I am going to choose a command `grep` and look for 3 *command-line
 
 Here are three options that I choose:
 
-1. **-l**
+## -l: Displays list of a filenames only.
 
-- Description: Displays list of a filenames only.
+This is a list of all textfile in directory named "911report"
 
-* Example 1: I choose "911report" to demonstrate.
+![Image](911reports.JPG)
 
+* *Example 1:*
 
+After we run an example for command-line **-l**, we will have a list of text file that contains a string "good"
 
+![Image](ex1.1.JPG)
 
+* *Example 2:* 
 
+![Image](
 
 2. **-n**
 
