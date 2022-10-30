@@ -77,10 +77,22 @@ If we choose specific textfile, the output will follow the order:
 
 <img src="ex2.4.JPG" alt="2.4" width="700"/>
 
+> In conclusion, command-line **-n** use to display the match pattern we input in the terminal and list out text with the line number. In this command-line, there are 2 cases to display the content, which are list out all or in specific textfile. 
 
+## **-o**: Print only the matched parts of a matching line, with each such part on a separate output line.
 
+* *Example 1:* string "government" is used for pattern
 
+<img src="ex3.1.JPG" alt="3.1" width="700"/>
 
+* *Example 2:* string "ultimate" is used for pattern
 
+<img src="ex3.2.JPG" alt="3.2" width="700"/>
 
-3. **-o**
+* *Example 3:* string "jump" is used for pattern
+
+<img src="ex3.3.JPG" alt="3.3" width="700"/>
+
+<img src="ex3.4.JPG" alt="3.4" width="700"/>
+
+> In conclusion, this command-line **-o** is used for listing out all strings that match to the pattern we input. It will display the input on the separate line if it found in the textfile. We can use it to know how many words (the input pattern) exist in file by counting each word on each line, as well as the number of that word in each textfile, if we use asterisk.
