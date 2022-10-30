@@ -4,17 +4,28 @@
 
 For this lab, I am going to choose a command `grep` and look for 3 *command-line options* for it.
 
-1. **-i**
+**Syntax:**
+
+`grep [options] pattern [files]`
+
+Here are three options that I choose:
+
+1. **-l**
+
+- Description: Displays list of a filenames only.
+
+* Example 1: I choose "911report" to demonstrate.
 
 
 
 
 
-2. **-l**
+
+2. **-n**
 
 
 
 
 
 
-3. 
+3. **-o""
