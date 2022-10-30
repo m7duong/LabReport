@@ -48,21 +48,34 @@ If we don't use asterisk, instead, we input the textfile name, it will display t
 
 ## **-n**: Display the matched lines and their line numbers.
 
-* *Example 1:* string 
+In the terminal, if we choose asterist to list out all textfile, the output will follow the order:
 
-<img src="ex1.1.JPG" alt="1.1" width="700"/>
+	1. Name of textfile .txt.
+	2. Line number that exists the string input.
+	3. A text that included the string input.
 
-* *Example 2:* 
+If we choose specific textfile, the output will follow the order:
 
-After we run an example for command-line **-l**, we will have a list of text file that contains a string "bye"
+	1. Line number that exists the string input.
+	2. A text that included the string input.
 
-<img src="ex1.2.JPG" alt="1.2" width="700"/>
+* *Example 1:* string "love" in all textfile.
 
-* *Example 3:* 
+<img src="ex2.1.JPG" alt="2.1" width="1000"/>
 
-After we run an example for command-line **-l**, we will have a list of text file that contains a string "FAA"
+* *Example 2:* string "affair" in all textfile versus specific textfile
 
-<img src="ex1.3.JPG" alt="1.3" width="700"/>
+> All file:
+
+<img src="ex2.2.JPG" alt="2.2" width="700"/>
+
+> Specific textfile:
+		
+<img src="ex2.3.JPG" alt="2.3" width="700"/>
+
+* *Example 3:* string "trip" in specific textfile
+
+<img src="ex2.4.JPG" alt="2.4" width="700"/>
 
 
 
