@@ -45,6 +45,7 @@ If we don't use asterisk, instead, we input the textfile name, it will display t
 <img src="ex1.5.JPG" alt="1.5" width="700"/>
 
 > In conclusion, we can see that the command-line **-l** (lowercase L) use to list out the string we input for the pattern which it exists in the textfile. The reason I use asterisk " * " because I want to list out all of textfile included the pattern I enter for the command. If I don't use asterisk, if the textfile has my input pattern, it only displays that textfile name on the screen.
+> I found this useful when we can list out which file in the directory exists the term/pattern inside the double quote " " so that we can narrow down the textfile that term has. 
 
 ## **-n**: Display the matched lines and their line numbers.
 
@@ -77,7 +78,8 @@ If we choose specific textfile, the output will follow the order:
 
 <img src="ex2.4.JPG" alt="2.4" width="700"/>
 
-> In conclusion, command-line **-n** use to display the match pattern we input in the terminal and list out text with the line number. In this command-line, there are 2 cases to display the content, which are list out all or in specific textfile. 
+> In conclusion, command-line **-n** use to display the match pattern we input in the terminal and list out text with the line number. In this command-line, there are 2 cases to display the content, which are list out all or in specific textfile.
+> This command line is much more useful than -l command because it is not only list out which textfile contains the pattern, but also points out the line number it stays. Moreover, it displays a couple sentences that we can easier figure out where it exists. 
 
 ## **-o**: Print only the matched parts of a matching line, with each such part on a separate output line.
 
@@ -96,3 +98,4 @@ If we choose specific textfile, the output will follow the order:
 <img src="ex3.4.JPG" alt="3.4" width="700"/>
 
 > In conclusion, this command-line **-o** is used for listing out all strings that match to the pattern we input. It will display the input on the separate line if it found in the textfile. We can use it to know how many words (the input pattern) exist in file by counting each word on each line, as well as the number of that word in each textfile, if we use asterisk.
+> This is useful that it will show all the patterns we want to find which is equal to the number it has in the file. For instance, the first example above demonstrates that we choose "government" as a pattern, and the output is a list of that pattern, a pattern for each line. From here, you can count how many times that pattern uses in a textfile. We can also use it to find in multiple textfile with the same pattern.
