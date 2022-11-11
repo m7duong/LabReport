@@ -30,8 +30,8 @@ _Description_:
 
 <img src="1.5.JPG" alt="1.5" width="700"/>
 
-<img src="1.6.JPG" alt="1.5" width="700"/>
+<img src="1.6.JPG" alt="1.6" width="700"/>
 
-<img src="1.7.JPG" alt="1.5" width="700"/>
+<img src="1.7.JPG" alt="1.7" width="700"/>
 
 * `:wq<Enter>`: this will help us save the file, then quit vim and return to the terminal.
