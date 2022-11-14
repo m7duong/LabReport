@@ -29,11 +29,11 @@ Here is a link: [VS Code](https://code.visualstudio.com/download)
 When you click on that link, you will see something like the picture below. 
 You will choose which operating system you are currently use.
 
-![Image](VSCode1.JPG)
+<img src="VSCode1.JPG" alt="VSCode1" width="700"/>
 
 After you are done installing, you will see the home page of VS Code like this
 
-![Image](VSCode2.JPG)
+<img src="VSCode2.JPG" alt="VSCode2" width="700"/>
 
 ## Step 2: **Remotely Connecting**
 
@@ -47,18 +47,18 @@ First of all, you need to follow these steps below:
     5. No? Click on "Add a feature" button 
     6. Type "OpenSSH Client" and install.
 
-![Image](OpenSSHClient.JPG)
+<img src="OpenSSHClient.JPG" alt="OpenSSHClient" width="700"/>
 
 For more information of installing OpenSSH: [OpenSSH instruction](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui)
 
 After you are done with installing OpenSSH Client, open a terminal on VSCode by clicking the "Terminal" button in the bottom of your screen. 
 Then, you will type this command line: ssh cs15lfa22gl@ieng6.ucsd.edu.
 
-**Note:** Everyone will have a different account, the last 2 characters "gl" isy account, yours will be different. 
+**Note:** Everyone will have a different account, the last 2 characters "gl" is my account, yours will be different. 
 
 They will ask you a password, which is the one you just recently change. If you succeed, it will look the same as mine. 
 
-![Image](SuccessLoggingIn.JPG)
+<img src="SuccessLoggingIn.JPG" alt="SuccessLoggingIn" width="700"/>
 
 ## Step 3: **Trying Some Commands**
 
@@ -73,9 +73,10 @@ After logging in, you can play around with some commands:
   - cat /home/linux/ieng6/cs15lfa22/public/hello.txt
 
 It looks something like this: 
-![Image](Command1.JPG)
 
-![Image](Command2.JPG)
+<img src="Command1.JPG" alt="Command1" width="700"/>
+
+<img src="Command2.JPG" alt="Command2" width="700"/>
 
 To logout the server account, you can do either one of this:
   - Ctrl + D
@@ -121,22 +122,18 @@ Finally, log in to ieng6 account with ssh command and run:
     
 The output must be different from the previous step. It will look something like this:
 
-![Image](CopyPasteJavaFile.JPG)
+<img src="CopyPasteJavaFile.JPG" alt="CopyPasteJavaFile" width="700"/>
 
 ## Step 5: **Setting an SSH Key**
 
-For this part, I have followed step-by-step from the professor's instruction. 
-What we need to do in this part is that we can get rid of the password so we can access faster. 
-My operating system is Window, and I already do an extra part, which is ssh-add, however, it is still asking me password.
+For this part, I have followed step-by-step from the professor's instruction. What we need to do in this part is that we can get rid of the password so we can access faster. My operating system is Window, and I already do an extra part, which is ssh-add, however, it is still asking me password.
 
-![Image](Part7_Stuck.JPG)
+<img src="Part7_Stuck.JPG" alt="Part7_Stuck" width="700"/>
 
 ## Step 6: **Optimizing Remote Running**
 
-In this step, we will optimize copying and moving files from the personal computer to the server system.
-Simply, instead of having to type in the command line to log into the system account, and then type other commands, we can combine them into one command line.
-For example, we will optimize *Step 4* so we can a lot of time. You can see an example I do below:
+In this step, we will optimize copying and moving files from the personal computer to the server system. Simply, instead of having to type in the command line to log into the system account, and then type other commands, we can combine them into one command line. For example, we will optimize *Step 4* so we can a lot of time. You can see an example I do below:
 
-![Image](OptimizeRunning.JPG)
+<img src="OptimizeRunning.JPG" alt="OptimizeRunning" width="700"/>
 
-Because I fail to do the Step 5 so my example is still asking for password. Normally, it will go directly to remote server account.
+Because I fail to do Step 5 so my example is still asking for password. Normally, it will go directly to remote server account.
