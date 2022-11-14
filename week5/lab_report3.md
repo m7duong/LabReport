@@ -4,6 +4,12 @@
 
 For this lab, I am going to choose a command `grep` and look for 3 *command-line options* for it.
 
+[-l command line](https://m7duong.github.io/LabReport/week5/lab_report3.html#-l-displays-list-of-a-filenames-only)
+
+[-n command line](https://m7duong.github.io/LabReport/week5/lab_report3.html#-n-display-the-matched-lines-and-their-line-numbers)
+
+[-o command line](https://m7duong.github.io/LabReport/week5/lab_report3.html#-o-print-only-the-matched-parts-of-a-matching-line-with-each-such-part-on-a-separate-output-line)
+
 **Syntax:**
 
 `grep [options] pattern [files]`
