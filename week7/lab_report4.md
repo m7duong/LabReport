@@ -1,5 +1,7 @@
 # Lab Report 4 - Vim (Week 7)
 
+_Created by: Minh Nhat Duong_
+
 [Part 1](https://m7duong.github.io/LabReport/week7/lab_report4.html#part-1)
 
 [Part 2](https://m7duong.github.io/LabReport/week7/lab_report4.html#part-2)
