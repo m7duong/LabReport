@@ -56,4 +56,6 @@ For starting in Visual Studio Code, after I was done everything and uploaded to 
 
 Personally, I prefer using vim directly on server because it's much convenience for me to fix an issue right away, and redo the task by using the "." key so it saves a lot of time. If I do it in local, I need to scroll and find the word manually, which takes me a while to finish all and maybe leave me a feeling that I miss a term left. Another reason that I consider is that for Window user, we don't have a bash command line provided, so that I need to upload the copy to server and run bash up there. In some cases, if we have any errors, we need to log out of server account and fix that issue in local, and scp again to the server. This may cause a time waste when we do a project. 
 
+> What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
 
+I know that if I work in Visual Studio Code, there are some hot keys that help me in making a decision for doing the first or second option. However, I still bias to doing t
