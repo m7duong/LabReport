@@ -1,4 +1,5 @@
 # Week 0 Lab
+
 ## Hi Professor!
 
 **Hi**, my name is *Minh Nhat Duong*
@@ -9,4 +10,4 @@
 
 <img src="Screenshot.JPG" alt="Screenshot" width="700"/>
 
-[Leisure Time Activity](https://m7duong.github.io/cse15l-lab-reports/another_file.html)
+[Leisure Time Activity](https://m7duong.github.io/LabReports/week0/another_file.html)
