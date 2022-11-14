@@ -58,4 +58,4 @@ Personally, I prefer using vim directly on server because it's much convenience 
 
 > What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
 
-I know that if I work in Visual Studio Code, there are some hot keys that help me in making a decision for doing the first or second option. However, I still bias to doing directly on server and using vim to make any changes. By doing that, I don't have to worry about the time waste if I have any mistake like I mention above. 
+I know that if I work in Visual Studio Code, there are some hot keys that help me in making a decision for doing the first or second option. However, I still bias to doing directly on server and using vim to make any changes. By doing that, I don't have to worry about the time waste if I have any mistake like I mention above. In general, time is one of the main factor I consider to make a decision of choosing which performance I want to do. 
