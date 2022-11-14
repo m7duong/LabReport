@@ -2,6 +2,10 @@
 
 _Created by: Minh Nhat Duong_
 
+[Part 1](https://m7duong.github.io/LabReport/week3/lab_report2.html#part-1-simplest-search-engine)
+
+[Part 2](https://m7duong.github.io/LabReport/week3/lab_report2.html#part-2-find-2-bugs-in-2-different-files)
+
 ## Part 1: Simplest Search Engine
 
 ```java
