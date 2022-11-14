@@ -1,8 +1,8 @@
 # Lab Report 4 - Vim (Week 7)
 
-[Part 1](https://github.com/m7duong/LabReport/edit/main/week7/labreport4.md#part-1)
+[Part 1](https://m7duong.github.io/LabReport/week7/labreport4.html#part-1)
 
-[Part 2](https://github.com/m7duong/LabReport/edit/main/week7/labreport4.md#part-2)
+[Part 2](https://m7duong.github.io/LabReport/week7/labreport4.html#part-2)
 
 ## Part 1
 
