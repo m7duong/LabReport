@@ -1,0 +1,4 @@
+- Play sport 
+- Hang out with friends
+- Photographing
+- Eating food fusion
