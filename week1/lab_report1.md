@@ -1,16 +1,16 @@
-# Week 1 Lab Report
+# Lab Report 1
 
-[Step 1]()
+[Step 1](https://m7duong.github.io/LabReport/week1/lab_report1.html#step-1-visual-studio-code)
 
-[Step 2]()
+[Step 2](https://m7duong.github.io/LabReport/week1/lab_report1.html#step-2-remotely-connecting)
 
-[Step 3]()
+[Step 3](https://m7duong.github.io/LabReport/week1/lab_report1.html#step-3-trying-some-commands)
 
-[Step 4]()
+[Step 4](https://m7duong.github.io/LabReport/week1/lab_report1.html#step-4-moving-files-with-scp)
 
-[Step 5]()
+[Step 5](https://m7duong.github.io/LabReport/week1/lab_report1.html#step-5-setting-an-ssh-key)
 
-[Step 6]()
+[Step 6](https://m7duong.github.io/LabReport/week1/lab_report1.html#step-6-optimizing-remote-running)
 
 *Created by:* **Minh Nhat Duong**
 
