@@ -12,9 +12,9 @@ _Task_: Changing the name of the "start" parameter and its uses to "base"
 
 Step to do: Assume we are in the "week6-skill-demo1" directory
 
-`/start<Enter>cebase<Esc>n.n.n.n:wq<Enter>`
+`/start<Enter>cebase<Esc>n.n.n<Shift>;wq<Enter>`
 
-=> There are 25 keys pressed in total, which I found the shortest sequence of `vim` commands. 
+=> There are 24 keys pressed in total, which I found the shortest sequence of `vim` commands. 
 
 _Description_:
 
@@ -30,19 +30,17 @@ _Description_:
 
 <img src="1.4.JPG" alt="1.4" width="700"/>
 
-* `n.n.n.`: this will go to the next word that we search before, which is "start", and click "." to redo the step `cebase<Esc>`. Each `n.` count as 1 time, so we need to do 3 times for changing all `start` in the program.
+* `n.n.`: this will go to the next word that we search before, which is "start", and click "." to redo the step `cebase<Esc>`. Each `n.` count as 1 time, so we need to do 2 times for changing all `start` in the program.
 
 <img src="1.5.JPG" alt="1.5" width="700"/>
 
 <img src="1.6.JPG" alt="1.6" width="700"/>
 
-<img src="1.7.JPG" alt="1.7" width="700"/>
-
 * `n`: we need another `n` key pressed to search for the term `start` to make sure there is nothing left. It will display a red line at the bottom left of the terminal.
 
 <img src="1.8.JPG" alt="1.8" width="700"/>
 
-* `:wq<Enter>`: this will help us save the file, then quit vim and return to the terminal.
+* `<Shift>;wq<Enter>`: this will help us save the file, then quit vim and return to the terminal.
 
 ## Part 2
 
@@ -52,7 +50,7 @@ For starting in Visual Studio Code, after I was done everything and uploaded to 
 
 - Some difficulties:
 
-    * For the Visual Studio Code, I need to find a word "start" for each line, and need to scan through a program once again to make sure I don't miss out any left.         Also, I have a trouble with the Wifi connection at home to scp to the server so it takes a while to do it.
+    * For the Visual Studio Code, I need to find a word "start" for each line, and need to scan through a program once again to make sure I don't miss out any left. Also, I have a trouble with the Wifi connection at home to scp to the server so it takes a while to do it.
 
 > Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
 
@@ -60,4 +58,4 @@ Personally, I prefer using vim directly on server because it's much convenience 
 
 > What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
 
-I know that if I work in Visual Studio Code, there are some hot keys to support the part `n.n.n.n` in vim. This helps me in making a decision for doing the first or second option. However, I still bias to doing directly on server and using vim to make any changes. By doing that, I don't have to worry about the time waste if I have any mistake like I mention above. In general, time is one of the main factor I consider to make a decision of choosing which performance I want to do. 
+I know that if I work in Visual Studio Code, there are some hot keys to support the part `n.n.n` in vim. This helps me in making a decision for doing the first or second option. However, I still bias to doing directly on server and using vim to make any changes. By doing that, I don't have to worry about the time waste if I have any mistake like I mention above. In general, time is one of the main factor I consider to make a decision of choosing which performance I want to do. 
