@@ -42,8 +42,14 @@ _Description_:
 
 > Report how long it took you to make the edit in seconds in both styles, and any difficulties or details that came up in doing so.
 
-For starting in Visual Studio Code, after I was done everything and uploaded to server, it took me around 
+For starting in Visual Studio Code, after I was done everything and uploaded to server, it took me around 100 seconds to finish all tasks. About the vim option, it took me around 60 seconds to finish, which is less time than the first option.
+
+- Some difficulties:
+
+    * For the Visual Studio Code, I need to find a word "start" for each line, and need to scan through a program once again to make sure I don't miss out any left.         Also, I have a trouble with the Wifi connection at home to scp to the server so it takes a while to do it.
 
 > Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
 
-Personally, I prefer using vim directly on server 
+Personally, I prefer using vim directly on server because it's much convenience for me to fix an issue right away, and redo the task by using the "." key so it saves a lot of time. If I do it in local, I need to scroll and find the word manually, which takes me a while to finish all and maybe leave me a feeling that I miss a term left. Another reason that I consider is that for Window user, we don't have a bash command line provided, so that I need to upload the copy to server and run bash up there. In some cases, if we have any errors, we need to log out of server account and fix that issue in local, and scp again to the server. This may cause a time waste when we do a project. 
+
+
