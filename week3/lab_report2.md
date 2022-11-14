@@ -1,4 +1,8 @@
-# Part 1: Simplest Search Engine
+# Lab Report 2
+
+_Created by: Minh Nhat Duong_
+
+## Part 1: Simplest Search Engine
 
 ```java
 import java.io.IOException;
@@ -73,31 +77,31 @@ Here is a list of screenshot that I take for each step:
 
 1. Before I add something to the list, it is an empty. For this, I simply pass the link that generate after we compile the file.
 
-![Image](ListBefore.JPG)
+<img src="ListBefore.JPG" alt="ListBefore" width="700"/>
 
 2. I add some words to the list. We are going to use add argument to add the phrase after the query to the list.
 
-![Image](Apple.JPG)
+<img src="Apple.JPG" alt="Apple" width="700"/>
 
-![Image](Pineapple.JPG)
+<img src="Pineapple.JPG" alt="Pineapple" width="700"/>
 
-![Image](Melon.JPG)
+<img src="Melon.JPG" alt="Melon" width="700"/>
 
-![Image](Watermelon.JPG)
+<img src="Watermelon.JPG" alt="Watermelon" width="700"/>
 
-![Image](Wintermelon.JPG)
+<img src="Wintermelon.JPG" alt="Wintermelon" width="700"/>
 
 3. The list after I add elements. Use the main URL to display the list.
 
-![Image](ListAfter.JPG)
+<img src="ListAfter.JPG" alt="ListAfter" width="700"/>
 
 4. We are going to use search argument find the element in the query that has the phrase we input.
 
-![Image](Search.JPG)
+<img src="Search.JPG" alt="Search" width="700"/>
 
-# Part 2: Find 2 bugs in 2 different files
+## Part 2: Find 2 bugs in 2 different files
 
-## First code:
+> First code:
 
 - Before I make a change:
 
@@ -129,7 +133,7 @@ static void reverseInPlace(int[] arr)
 
 * This code's bug and symptom has a connection to each other because if the code has bug(s), it will have a symptom shown that we need to fix. If we don't have a bug, the program won't have any symptom. Here, we can observe that the original code make a logical error at the beginning, which causes the symptom to be shown in the terminal when we run the test case. 
 
-## Second code:
+> Second code:
 
 - Before I make a change:
 
@@ -179,4 +183,3 @@ class Checker implements StringChecker
     - First of all, we can visualize the filter function from the original and after modifying is really similar. However, there is one little change that in the add method, the original makes a bug that they assign the position to add for the string. This cause the logical error because when we add in, it will go to the first element. And if we keep adding it into a list, the first element turns into the last element when we call it out. Therefore, the expect and actual are different, and this cause a symptom that the test case fails, and we need to go back and change a code into the modified program above. Here, instead of having a 0 value before the variable "s", we just take it out to make the code run correct. The reason why it is correct because we only need to return the value into true or false, it doesn't matter the order of the list. 
     - Secondly, we need to add a class to implement the StringChecker interface because at the beginning, the original just have an interface StringChecker but we don't acutally have a class for it. Therefore, we need to make one to check if the variable s is in String type. 
     - The related between the bug and the symptom of this one is a logic to make a code run correctly. We know that the value from the expect should be matched to the actual. The failure of the test is a symptom that causes from the bug of the code. 
-
