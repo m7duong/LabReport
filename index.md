@@ -6,6 +6,8 @@
 
 **Student ID: A17589023**
 
+[Lab 0](https://m7duong.github.io/LabReport/week0/index.html)
+
 [Lab 1](https://m7duong.github.io/LabReport/week1/lab_report1.html)
 
 [Lab 2](https://m7duong.github.io/LabReport/week3/lab_report2.html)
