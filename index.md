@@ -7,3 +7,5 @@ Hi, my name is *Minh Nhat Duong*
 [Lab 2](https://m7duong.github.io/LabReport/week3/index.html)
 
 [Lab 3](https://m7duong.github.io/LabReport/week5/lab_report3.html)
+
+[Lab 4](https://m7duong.github.io/LabReport/week7/labreport4.html)
