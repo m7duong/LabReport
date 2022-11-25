@@ -3,7 +3,7 @@ _Created by: Minh Nhat Duong_
 
 [Part 1 - Demonstrate](https://m7duong.github.io/LabReport/week9/lab_report5.html#part-1-demonstrate-lab)
 
-[Part 2 - Tracing](https://m7duong.github.io/LabReport/week9/lab_report5.html#part-2-demonstrate-lab)
+[Part 2 - Tracing](https://m7duong.github.io/LabReport/week9/lab_report5.html#part-2-tracing)
 
 ## Part 1: Demonstrate Lab
 
