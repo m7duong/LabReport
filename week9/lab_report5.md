@@ -7,7 +7,7 @@ _Created by: Minh Nhat Duong_
 
 ## Part 1: Demonstrate Lab
 
-```C++
+```java
 # Variables
 STU_REPO=student-submission
 TEST_FILE=TestListExamples
