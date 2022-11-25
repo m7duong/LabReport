@@ -16,4 +16,4 @@
 
 [Lab 4](https://m7duong.github.io/LabReport/week7/lab_report4.html)
 
-[Lab 5](https://m7duong.github.io/LabReport/week7/lab_report5.html)
+[Lab 5](https://m7duong.github.io/LabReport/week9/lab_report5.html)
