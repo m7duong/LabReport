@@ -1,9 +1,9 @@
 # Lab Report 5
 _Created by: Minh Nhat Duong_
 
-[Part 1 - Demonstrate]()
+[Part 1 - Demonstrate](https://m7duong.github.io/LabReport/week9/lab_report5.html#part-1-demonstrate-lab)
 
-[Part 2 - Tracing]()
+[Part 2 - Tracing](https://m7duong.github.io/LabReport/week9/lab_report5.html#part-2-demonstrate-lab)
 
 ## Part 1: Demonstrate Lab
 
