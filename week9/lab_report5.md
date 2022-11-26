@@ -104,13 +104,15 @@ I choose the first code from the list in Lab Task 7 `https://github.com/ucsd-cse
 
 I will based on the line number of code block I attach above to describe the tracing step.
 
+**1) For each line with a command, what its _standard output_ and _standard error_ are for this run, and whether its _return code_ was zero or nonzero**
+
 - From line 11 to line 21, I am going to initialize the variables that I can reuse it for the entire code.
 - From line 23 to line 25, I am going to remove all old files and compile files so I can use the grade.sh script as many time as possible. If we don't have this step, it may be overwritten.
 - From line 27 to line 31, I want to clone the student submission from github to local device to grade the assignment. Line 28 is the one we do the clone, the rest is just display on the screen the prompt to let me know it's done cloning.
 - From line 33 to line 86, this is the step that I do the grading part. The total point is 5, and this whole task is going to check whether the submission is passed each test we require so that we can give point. 
 - From line 88 to line 91, we want to display the point that the student submission has over the total point we have for the assignment. After that, we want to convert that point into percentage grade so that it's easier for student to keep track their grade. 
 
-**For each line with an if statement, whether the condition was true or false, and why**
+**2) For each line with an `if` statement, whether the condition was true or false, and why**
 
 - Line 34 is to check whether the previous command passed the condition. If the previous exit status is not equal 0, which means the previous step has some problem, especially we failed to clone the student submission, then we display a sentence to let the grader know that it's failed to clone, along with the grade.
 - Otherwise, after line 37, we will give 1 point for student and display a prompt to keep track. 
