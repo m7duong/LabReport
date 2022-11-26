@@ -123,4 +123,4 @@ I will based on the line number of code block I attach above to describe the tra
 
 **Indicate each line that _does not_ run (maybe because it is in an if branch that doesn’t evaluate, or after an early exit)**
 
->In my code, most of the if-else statement is to check whether it's true or false. It always has a task for each one. If it passed the condition, it will be doing then part, otherwise, it jumps to the else statement part. 
+In my code, most of the if-else statement is to check whether it's true or false. It always has a task for each one. If it passed the condition, it will be doing then part, otherwise, it jumps to the else statement part. 
