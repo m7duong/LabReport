@@ -92,6 +92,10 @@ echo "Your grade: $GRADE/$TOTAL points => Percentage: $PERCENTAGE%"
 
 ```
 
+<img src="1.1.JPG" alt="1.1" width="700"/>
 
+<img src="1.2.JPG" alt="1.2" width="700"/>
+
+<img src="1.3.JPG" alt="1.3" width="700"/>
 
 ## Part 2: Tracing
