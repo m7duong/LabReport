@@ -118,4 +118,9 @@ I will based on the line number of code block I attach above to describe the tra
 - Otherwise, after line 37, we will give 1 point for student and display a prompt to keep track. 
 - Line 44 is another if statement that we need to go into the student-submission repository to check whether the ListExamples.java file exists. If it's not existed, then no point is added, otherwise, we will add one point and show the prompt to demonstrate.
 - Line 62 is to check if the previous exit status is 0 or not. If not, we show the prompt and let the grader know that if they want to see what's the error, they need to check in the CompileErr.txt file for more detail. CompileErr.txt is the text file that we move all the error when we compile the JUnit test. If we have the exit status is 0 in the previous step, which means it's successfully compile the file, so we give student another point. 
-- After we give the student another grade from previous step, we will run the JUnit file. Line 70 is to check the testFilter in TestListExamples.java file 
+- After we give the student another grade from previous step, we will run the JUnit file. Line 70 is to check the testFilter in TestListExamples.java file, if passed, we give point for student, otherwise, show an error message. 
+- Line 78 is another test in TestListExamples.java, whcih is testMerge. Similar to testFilter, if it passed the test, we give point, otherwise we just show an error message. 
+
+**Indicate each line that _does not_ run (maybe because it is in an if branch that doesn’t evaluate, or after an early exit)**
+
+>In my code, most of the if-else statement is to check whether it's true or false. It always has a task for each one. If it passed the condition, it will be doing then part, otherwise, it jumps to the else statement part. 
